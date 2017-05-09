@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Analog Sea</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Join us at Analog Sea, now!">
+	<meta name="keywords" content="analog,sea,html.forms,sign,up">
+	<meta name="author" content="Alberto Miravete">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header>
+	<img class="logo"src="images/logo.png">
+</header>
+<body>
+	<div class="panelForm">
+		<form class='signup-form' method='post' action='/signup'>
+			<h1>Sign up</h1>
+
+			<label for="emailField">Email</label>
+			<input type="email" name="email" id="emailField" placeholder="foo@bar.com" required="true" />
+
+			<label for="passField">Password</label>
+			<input type="password" name="pass" id="passField" placeholder="1234passw0rd" required="true" />
+
+			<button type='submit'>Sign up</button>
+			<a href="/forgot-password/new">Forgot password?</a>
+		</form>
+	</div>
+	<div class="login">
+		<span>Already have an account?</span>
+		<a href="/login">Log in</a>
+	</div>	
+</body>
+</body>
+</html>
